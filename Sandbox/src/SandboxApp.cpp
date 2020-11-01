@@ -14,9 +14,7 @@ public:
 	}
 };
 
-int main() 
+Gamma::Application* Gamma::CreateApplication()
 {
-	Sandbox* sandbox = new Sandbox();
-	sandbox->Run();
-	delete sandbox;
+	return new Sandbox();
 }

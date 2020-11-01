@@ -12,6 +12,9 @@ namespace Gamma {
 		//methods
 		void Run();
 	};
+
+	//This method needs to be defined in the client
+	Application* CreateApplication();
 }
 
 
